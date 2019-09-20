@@ -39,7 +39,7 @@ def turn(board)
   input = input_to_index(input)
   
   if valid_move?(board, input)
-    binding.pry
+    # binding.pry
     move(board, input, character = "X")
     display_board(board)
   else 
